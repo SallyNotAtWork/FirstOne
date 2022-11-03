@@ -2,13 +2,13 @@ import Head from "next/head";
 import React from "react";
 import Header from "../components/Header";
 
-function Steder() {
+function Hundeliv() {
   return (
     <>
-    <Head> <title> STEDER Å GÅ MED HUND</title></Head>
+    <Head> <title> ET HUNDECAFÉLIV I OSLO</title></Head>
     <Header />
     </>
   );
 }
 
-export default Steder;
+export default Hundeliv;

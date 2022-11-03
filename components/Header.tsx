@@ -5,18 +5,18 @@ import React from "react";
 function Header() {
   return (
     <header>
-      <div className="flex items-center justify-center text-3xl ">
+      <div className="flex items-center justify-center text-3xl py-4">
         {"HUND I OSLO - ENKLERE LIV MED HUND"}
       </div>
       <div className="flex-1 items-center justify-center space-x-8 md:flex">
         <a className="headerLink" href="/">HUND I OSLO - HVOR KAN DU GÅ?</a>
         <a className="headerLink" href="/Steder">STEDER Å GÅ MED HUND</a>
-        <a className="headerLink">ET HUNDECAFÉLIV I OSLO</a>
+        <a className="headerLink" href="/Hundeliv">ET HUNDECAFÉLIV I OSLO</a>
       </div>
-      <div className="relative">
+      <div className="relative py-4">
         <Image
         src={"/../public/dinhundoslo.png"}
-        width= {1000}
+        width= {1500}
         height={150}
         objectFit="contain"
         />
