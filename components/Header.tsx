@@ -13,6 +13,14 @@ function Header() {
         <a className="headerLink" href="/Steder">STEDER Å GÅ MED HUND</a>
         <a className="headerLink">ET HUNDECAFÉLIV I OSLO</a>
       </div>
+      <div className="relative">
+        <Image
+        src={"/../public/dinhundoslo.png"}
+        width= {1000}
+        height={150}
+        objectFit="contain"
+        />
+      </div>
     </header>
   );
 }
