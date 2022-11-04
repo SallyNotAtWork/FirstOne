@@ -4,6 +4,6 @@
 
 @layer components {
     .headerLink {
-        @apply cursor-pointer opacity-75 transition hover:opacity-100 text-2xl py-4;
+        @apply cursor-pointer opacity-75 transition hover:opacity-100 text-xl py-4;
     }
 }
