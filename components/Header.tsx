@@ -9,7 +9,7 @@ function Header() {
         <Link href="/">
           <div className="relative w-10 cursor-pointer opacity-75 h-10 transition hover:opacity-100">
             <Image
-              src={"/../public/dogpaw.png"}
+              src={"/../public/static/img/dogpaw.png"}
               layout="fill"
               objectFit="contain"
             />
