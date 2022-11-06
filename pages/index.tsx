@@ -13,8 +13,8 @@ const Home: NextPage = () => {
         <title>HUND I OSLO</title>
         <link rel="icon" href="/dog2.png" />
       </Head>
-      <HeaderHeader/>
       <Header/>
+      <HeaderHeader/>
       <SideOne/>
     </div>
   )
