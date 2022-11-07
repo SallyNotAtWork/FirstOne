@@ -4,30 +4,33 @@ import React from "react";
 
 function Header() {
   return (
-    <header className="sticky top-0 z-30 flex w-full items-center justify-between bg-[#E7ECEE] p-4">
-      <div className="flex items-center justify-center md:w-1/8">
-        <Link href="/">
-          <div className="relative w-10 cursor-pointer opacity-75 h-10 transition hover:opacity-100">
-            <Image
-              src={"/dogpaw.png"}
-              layout="fill"
-              objectFit="contain"
+    <div className="flex flex-row items-center px-4 py-6 sm:px-6 space-x-5">
+
+      <div className="flex-none ">
+       <a href="/">
+            <img
+              className="h-8 w-auto"
+              src="/dogpaw.png"
+              alt=""
             />
-          </div>
-        </Link>
-      </div>
-      <div className="flex-1 items-center justify-center space-x-8 md:flex">
+        </a>
+        </div>
+        
         <a className="headerLink" href="/">
           HUND I OSLO - HVOR KAN DU GÅ?
         </a>
+
         <a className="headerLink" href="/Steder">
           STEDER Å GÅ MED HUND
         </a>
+
         <a className="headerLink" href="/Hundeliv">
           ET HUNDECAFÉLIV I OSLO
         </a>
+
+
       </div>
-    </header>
+ 
   );
 }
 
