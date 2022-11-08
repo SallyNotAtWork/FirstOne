@@ -1,10 +1,8 @@
-import Image from "next/image";
-import Link from "next/link";
 import React from "react";
 
 function Header() {
   return (
-    <div className="flex flex-row items-center px-4 py-6 sm:px-6 space-x-5">
+    <div className="flex flex-row items-center px-4 py-4 space-x-5 shadow-md bg-white">
 
       <div className="flex-none ">
        <a href="/">
